@@ -1,0 +1,19 @@
+--| Notes on the behaviour of the code |-- 
+
+/Please refer to the images/
+  
+/Distinguish between wrong behaviour (not as expected) and
+weird cases/
+
+
+--Paco, Mo 11.04 -- 
+
+Working pretty fine. 
+Walls pose weird cases:
+· Image PeopleRoom.jpg -- right wall is detected as huge obstacle
+· Image BallCubeCylinder.jpg -- grey upper background detected as obstacle. But we shoud IDEALLY find a way to ignore obstacles that are too high (in case we have tables or so).
+
+----
+
+
+
